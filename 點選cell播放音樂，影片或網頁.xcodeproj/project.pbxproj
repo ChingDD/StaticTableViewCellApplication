@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		C2CF919F2A11BF2A00C51306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CF919E2A11BF2A00C51306 /* AppDelegate.swift */; };
 		C2CF91A12A11BF2A00C51306 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CF91A02A11BF2A00C51306 /* SceneDelegate.swift */; };
-		C2CF91A32A11BF2A00C51306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CF91A22A11BF2A00C51306 /* ViewController.swift */; };
 		C2CF91A62A11BF2A00C51306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CF91A42A11BF2A00C51306 /* Main.storyboard */; };
 		C2CF91A82A11BF2B00C51306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CF91A72A11BF2B00C51306 /* Assets.xcassets */; };
 		C2CF91AB2A11BF2B00C51306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CF91A92A11BF2B00C51306 /* LaunchScreen.storyboard */; };
+		C2CF91B52A11C11900C51306 /* songInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CF91B42A11C11900C51306 /* songInfo.swift */; };
+		FC377CAD2A1399100016AE95 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC377CAC2A1399100016AE95 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C2CF919B2A11BF2A00C51306 /* 點選cell播放音樂，影片或網頁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "點選cell播放音樂，影片或網頁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2CF919E2A11BF2A00C51306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2CF91A02A11BF2A00C51306 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2CF91A22A11BF2A00C51306 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2CF91A52A11BF2A00C51306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2CF91A72A11BF2B00C51306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2CF91AA2A11BF2B00C51306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2CF91AC2A11BF2B00C51306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2CF91B42A11C11900C51306 /* songInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songInfo.swift; sourceTree = "<group>"; };
+		FC377CAC2A1399100016AE95 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				C2CF919E2A11BF2A00C51306 /* AppDelegate.swift */,
 				C2CF91A02A11BF2A00C51306 /* SceneDelegate.swift */,
-				C2CF91A22A11BF2A00C51306 /* ViewController.swift */,
 				C2CF91A42A11BF2A00C51306 /* Main.storyboard */,
+				FC377CAC2A1399100016AE95 /* TableViewController.swift */,
+				C2CF91B42A11C11900C51306 /* songInfo.swift */,
 				C2CF91A72A11BF2B00C51306 /* Assets.xcassets */,
 				C2CF91A92A11BF2B00C51306 /* LaunchScreen.storyboard */,
 				C2CF91AC2A11BF2B00C51306 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2CF91A32A11BF2A00C51306 /* ViewController.swift in Sources */,
+				C2CF91B52A11C11900C51306 /* songInfo.swift in Sources */,
 				C2CF919F2A11BF2A00C51306 /* AppDelegate.swift in Sources */,
 				C2CF91A12A11BF2A00C51306 /* SceneDelegate.swift in Sources */,
+				FC377CAD2A1399100016AE95 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
